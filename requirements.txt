@@ -1,0 +1,16 @@
+# machine learning libraries
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn
+scipy
+
+# file reading libraries
+PyYAML
+
+# ensure library
+ensure
+
+# box library
+box
