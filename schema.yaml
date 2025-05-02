@@ -1,0 +1,31 @@
+COLUMNS:
+  uuid: object
+  quote_id: object
+  sale_flag: int64
+  property_type: object
+  year_built: int64
+  number_of_bedrooms: int64
+  number_of_bathrooms: int64
+  building_value: float64
+  contents_value: float64
+  coverage_level: object
+  number_of_occupants: int64
+  has_smoke_alarms: int64
+  has_burglar_alarm: int64
+  pets_present: int64
+  flood_risk_score: float64
+  fire_risk_score: float64
+  crime_rate_score: float64
+  broker_name: object
+  policy_term: int64
+  previous_claims_count: int64
+  distance_to_fire_station: float64
+  has_security_cameras: int64
+  ownership_status: object
+  energy_efficiency_rating: object
+  pcd: object
+  lat: float64
+  long: float64
+
+TARGET_COLUMN:
+  Premium: float64

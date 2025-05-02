@@ -6,3 +6,8 @@ data_ingestion:
   train_data_url: https://drive.google.com/file/d/1dYWh2YlTwtbnPbN6bcOOJgR011W0fWwx
   train_data_path: artifacts/data_ingestion/raw_data
   test_data_path: artifacts/data_ingestion/raw_data
+
+data_validation:
+  data_validation_dir: artifacts/data_validation
+  train_data_path: artifacts/data_ingestion/raw_data/home_insurance_train.csv
+  status_file: artifacts/data_validation/status.txt
