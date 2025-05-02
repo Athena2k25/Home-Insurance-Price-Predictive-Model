@@ -21,6 +21,7 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
+    ".env",
     "notebooks/data_ingestion.ipynb"
 
 

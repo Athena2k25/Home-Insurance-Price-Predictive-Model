@@ -1,0 +1,8 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  data_ingestion_dir: artifacts/data_ingestion
+  test_data_url: https://drive.google.com/file/d/1Dy1CmtS30nSa2lxgBr-VK_ufMz7AXpV9
+  train_data_url: https://drive.google.com/file/d/1dYWh2YlTwtbnPbN6bcOOJgR011W0fWwx
+  train_data_path: artifacts/data_ingestion/raw_data
+  test_data_path: artifacts/data_ingestion/raw_data

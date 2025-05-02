@@ -14,3 +14,9 @@ ensure
 
 # box library
 box
+
+# google drive library
+gdown
+
+# dotenv
+python-dotenv
