@@ -5,6 +5,7 @@ seaborn
 matplotlib
 scikit-learn
 scipy
+catboost
 
 # file reading libraries
 PyYAML
