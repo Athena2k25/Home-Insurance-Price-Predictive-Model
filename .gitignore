@@ -2,3 +2,4 @@
 templates.py
 artifacts
 catboost_info
+mlruns

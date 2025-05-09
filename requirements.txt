@@ -23,3 +23,7 @@ gdown
 
 # dotenv
 python-dotenv
+
+# mlops
+mlflow
+docker
