@@ -1,5 +1,6 @@
 import os
 import yaml
+import pandas as pd
 from pathlib import Path
 from ensure import ensure_annotations
 
@@ -27,3 +28,15 @@ def create_directories(path_to_directories: list, verbose=True):
         os.makedirs(directory, exist_ok=True)
         if verbose:
             print(f"created directory at: {directory}")
+
+@ensure_annotations
+def frequency_encode_column(X):
+    """Assumes X is a 2D array with one column"""
+    if isinstance(X, pd.DataFrame):
+        col = X.iloc[:, 0]
+    else:
+        col = pd.Series(X.ravel())
+
+    freq = col.value_counts(normalize=True)
+    encoded = col.map(freq).fillna(0).values.reshape(-1, 1)
+    return encoded
